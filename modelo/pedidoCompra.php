@@ -6,7 +6,7 @@ class PedidoCompra{
     public $FechaEntregaEstimada;
     public $CostoTotal;
     public $PedidoCerrado;
-    public $ListLineasCompras;
+    public $ListLineasCompras = Array();
 
     public function MostrarDatos()
     {
